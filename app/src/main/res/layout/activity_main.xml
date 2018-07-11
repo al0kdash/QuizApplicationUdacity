@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Que1. What does CSS stand for?"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Creative Style Sheets" />
+
+                <RadioButton
+                    android:id="@+id/rb12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cascading Style Sheets" />
+
+                <RadioButton
+                    android:id="@+id/rb13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Computer Style Sheets" />
+
+                <RadioButton
+                    android:id="@+id/rb14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colorful Style Sheets" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Que2. Which of the following is the OOPS concept in Java?"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Inheritance" />
+
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encapsulation" />
+
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interpretion" />
+
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compilation" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Que3. Where in an HTML document is the correct place to refer to an external style sheet?"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In the head section" />
+
+                <RadioButton
+                    android:id="@+id/rb22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="At the end of the document" />
+
+                <RadioButton
+                    android:id="@+id/rb23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In the body section" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Que4. What does SQL stand for?"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Structured Query Language" />
+
+                <RadioButton
+                    android:id="@+id/rb32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Strong Question Language" />
+
+                <RadioButton
+                    android:id="@+id/rb33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Structured Question Language" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Que5. Which SQL statement is used to insert new data in a database?"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INSERT NEW" />
+
+                <RadioButton
+                    android:id="@+id/rb42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD RECORD" />
+
+                <RadioButton
+                    android:id="@+id/rb43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INSERT INTO" />
+
+                <RadioButton
+                    android:id="@+id/rb44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD NEW" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Que6. What is the latest version of Android?"/>
+
+            <EditText
+                android:id="@+id/answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Answer Here"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit Response"
+                android:onClick="submit"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear Response"
+                android:onClick="Clear"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
